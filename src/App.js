@@ -12,7 +12,7 @@ function App() {
   }, []);
   useEffect(() => {
     console.log("I run when 'keyword' changes.");
-  }, [keyword]);
+  }, [keyword]); 
   useEffect(() => {
     console.log("I run when 'counter' changes.");
   }, [counter]);
